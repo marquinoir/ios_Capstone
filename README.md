@@ -1,13 +1,13 @@
 # [Codepath Group 32] Capstone Project
 
-### :small_blue_diamond: **Date:**  April 9, 2023
+### :small_blue_diamond: **Date:**  Amy 1, 2023
 
-## :white_check_mark: MusicLova App
+## :white_check_mark: TuneTalk App
 
 Original App Design Project
 ===
 
-# MusicLova: music rating and sharing app
+# TuneTalk: music rating and sharing app
 
 ### 1. An app that allows you to rate songs (like Rotten Tomatoes)
 #### - Rate songs based on lyrics, melody, etc. (could be out of 5 stars)
@@ -106,6 +106,9 @@ Original App Design Project
 ### [BONUS2] Digital Wireframes & Mockups
 ![](https://i.imgur.com/FcQWrio.png)
 
+### [BONUS2] Final App Walkthru
+![](https://i.imgur.com/0WrhvHR.mp4)
+
 
 
 ### [BONUS] Interactive Prototype
@@ -114,10 +117,19 @@ Original App Design Project
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+[Back4App as backend Parse Storage]
+
 ### Models
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
+back4app database
+share credentials / API key
+ ParseSwift.initialize(applicationId: "5S5xxxxxx",
+
+                              clientKey: "FEsFxxxx",
+
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
+update controller/ Appdelegate
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
