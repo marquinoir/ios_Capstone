@@ -1,6 +1,6 @@
 # [Codepath Group 32] Capstone Project
 
-### :small_blue_diamond: **Date:**  Amy 1, 2023
+### :small_blue_diamond: **Date:**  May 1st, 2023
 
 ## :white_check_mark: TuneTalk App
 
@@ -121,6 +121,31 @@ Original App Design Project
 
 ### Models
 [Add table of models]
+*User Model
+import Foundation
+import ParseSwift
+
+struct User: ParseUser {
+    // These are required by `ParseObject`.
+    var objectId: String?
+    var createdAt: Date?
+    var updatedAt: Date?
+    var ACL: ParseACL?
+    var originalData: Data?
+
+    // These are required by `ParseUser`.
+    var username: String?
+    var email: String?
+    var emailVerified: Bool?
+    var password: String?
+    var authData: [String: [String: String]?]?
+
+    // Your custom properties.
+    
+*Post model
+
+
+
 ### Networking
 - [Add list of network requests by screen ]
 back4app database
